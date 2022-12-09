@@ -1,0 +1,37 @@
+body{
+    width: 100vw;
+    height: 80vw;
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+div{
+    text-align: center;
+}
+
+button{
+    height: 2.5em;
+    width: 6em;
+    border: none;
+    color: white;
+    border-radius: 25px;
+}
+
+button:hover{
+    cursor: pointer;
+
+}
+.start-btn{
+    background-color: cadetblue;
+}
+
+.pause-btn{
+    background-color: grey;
+}
+
+.stop-btn{
+    background-color: red;
+}
